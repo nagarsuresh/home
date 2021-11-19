@@ -12,7 +12,15 @@ h2 {
   border: 1px solid #0e161b;
   box-shadow: 0 0.15rem 0 0 #0e161b;
   margin-top: 1rem;
+  flex-wrap: wrap;
 
+  .project-info {
+    flex: 2;
+  }
+  .project-demo {
+    flex: 1;
+    max-width: 375px;
+  }
 
   h4 {
     margin-top: 0;
@@ -27,7 +35,6 @@ h2 {
   }
 
   .demo-card {
-    width: 450px;
     height: 200px;
     margin: 0;
     padding: 1rem 1rem 0 1rem;

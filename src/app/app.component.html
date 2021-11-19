@@ -1,13 +1,14 @@
-<div class="main-container">
-  <header class="header header-3">
+<clr-main-container>
+  <clr-header>
+    <!-- designate primary navigation from the header-nav container -->
     <div class="branding">
       <a href="javascript:void(0)">
         <span class="title">Suresh Nagar</span>
       </a>
     </div>
-  </header>
+  </clr-header>
   <div class="content-container">
-    <div class="content-area" #scrollingContainer>
+    <main class="content-area" #scrollingContainer>
       <div class="scrolling-contents">
         <!-- about -->
         <app-section-container [title]="'About'" (partialVisible)="visibilityToggle('about', 'partial', $event)" id="about"
@@ -22,9 +23,9 @@
 
         <!-- work -->
         <!-- <app-section-container [title]="'Work'" (partialVisible)="visibilityToggle('work', 'partial', $event)" id="work"
-        (fullVisible)="visibilityToggle('work', 'full', $event)">
-          <app-work></app-work>
-        </app-section-container> -->
+          (fullVisible)="visibilityToggle('work', 'full', $event)">
+            <app-work></app-work>
+          </app-section-container> -->
 
         <!-- libraries -->
         <app-section-container [title]="'NPM Libraries'" (partialVisible)="visibilityToggle('npm', 'partial', $event)" id="npm"
@@ -42,8 +43,9 @@
           <app-projects></app-projects>
         </app-section-container>
       </div>
-    </div>
-    <nav class="sidenav">
+    </main>
+    <!-- designate secondary navigation -->
+    <nav class="sidenav" [clr-nav-level]="2">
       <section class="sidenav-content">
         <section class="nav-group">
 
@@ -51,7 +53,7 @@
             <img src="./assets/images/my-image.jpg" alt="" class="my-photo">
             <span class="my-name">Suresh Nagar</span>
             <div class="social-icons">
-              <a href="https://www.linkedin.com/in/sureshnagar/" target="_blank"  class="fa fa-linkedin"></a>
+              <a href="https://www.linkedin.com/in/sureshnagar/" target="_blank" class="fa fa-linkedin"></a>
               <a href="https://www.facebook.com/suresh.nagar.12/" target="_blank" class="fa fa-facebook"></a>
               <a href="https://twitter.com/SureshNagar21" target="_blank" class="fa fa-twitter"></a>
               <a href="https://github.com/nagarsuresh" target="_blank" class="fa fa-github"></a>
@@ -101,4 +103,4 @@
       </section>
     </nav>
   </div>
-</div>
+</clr-main-container>
