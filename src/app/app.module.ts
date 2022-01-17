@@ -16,6 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import '@cds/core/alert/register.js';
 import { TimelineCardComponent } from './components/resume/timeline-card/timeline-card.component';
+import { CdsModule } from '@cds/angular';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +34,8 @@ import { TimelineCardComponent } from './components/resume/timeline-card/timelin
     AppRoutingModule,
     ClarityModule,
     HttpClientModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    CdsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

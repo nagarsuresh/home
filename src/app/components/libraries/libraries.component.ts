@@ -14,7 +14,7 @@ export class LibrariesComponent implements OnInit {
     {
       url: 'https://www.npmjs.com/package/ngx-mousetrap',
       loading: false,
-      title: 'An Angular library built on top of "mousetrap".',
+      title: 'ngx-mousetrap',
       previewObj: {
         image: './assets/icons/npm-logo.png',
         description: 'A convenient Angular wrapper over mousetrap library to hide complexity and expose Angular Directive and Services'
@@ -23,7 +23,7 @@ export class LibrariesComponent implements OnInit {
     {
       url: 'https://www.npmjs.com/package/stack-source-mapper',
       loading: false,
-      title: 'A NodeJS library to translate production stack trace offline using source maps',
+      title: 'stack-source-mapper',
       previewObj: {
         image: './assets/icons/npm-logo.png',
         description: 'Production exception stack trace is often non readable as source maps are not bundled with app.  This library can translate a production stack to meaningful stack using offline/hidden source maps'
@@ -31,7 +31,7 @@ export class LibrariesComponent implements OnInit {
     },
     {
       url: 'https://www.npmjs.com/package/rxify-webworker',
-      title: 'Using RxJS to communicate with webworker.',
+      title: 'rxify-webworker',
       loading: false,
       previewObj: {
         image: './assets/icons/npm-logo.png',
