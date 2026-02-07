@@ -1,14 +1,436 @@
-<!DOCTYPE html><html lang="en"><head>
-  <meta charset="utf-8">
-  <title>Home</title>
-  <base href="./">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Suresh Nagar - UI Architect with 25 years of experience in enterprise web applications" />
+  <title>Suresh Nagar | UI Architect</title>
+  <link rel="icon" href="./favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="bg-texture" aria-hidden="true"></div>
+  
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">Suresh Nagar</a>
+      <nav class="primary-nav" id="primaryNav">
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#libraries">Libraries</a>
+        <a href="#articles">Articles</a>
+        <a href="#projects">Projects</a>
+      </nav>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
 
-<link rel="stylesheet" href="styles.css"></head>
-<body cds-text="body" cds-theme="dark">
-  <app-root></app-root>
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">UI Architect</p>
+          <h1>Building enterprise web applications with full-stack expertise.</h1>
+          <p class="lead">
+            UI Architect with <strong>25 years</strong> of experience in design, development, and maintenance of enterprise web applications
+            using TypeScript, JavaScript, HTML, CSS, Angular, RxJS, Redux, NgRx, Java, REST, ExtJS, ES5/6, Spring, JPA, and MySQL.
+          </p>
+          <p class="lead">
+            <strong>14+ years</strong> of full-stack experience in architecting and developing scalable and testable solutions under aggressive timelines.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#resume">View Resume</a>
+            <a class="button ghost" href="mailto:nagar.suresh@gmail.com">Get in Touch</a>
+          </div>
+          <div class="meta-grid">
+            <div>
+              <span class="meta-label">Phone</span>
+              <a href="tel:+1-408-498-2168">+1 (408) 498 2168</a>
+            </div>
+            <div>
+              <span class="meta-label">Email</span>
+              <a href="mailto:nagar.suresh@gmail.com">nagar.suresh@gmail.com</a>
+            </div>
+            <div>
+              <span class="meta-label">Location</span>
+              <span>Fremont, California</span>
+            </div>
+            <div>
+              <span class="meta-label">Visa Status</span>
+              <span>H1B (EAD)</span>
+            </div>
+          </div>
+          <div class="social-row">
+            <a href="https://www.linkedin.com/in/sureshnagar/" target="_blank" rel="noreferrer" aria-label="LinkedIn">LinkedIn</a>
+            <a href="https://www.facebook.com/suresh.nagar.12/" target="_blank" rel="noreferrer" aria-label="Facebook">Facebook</a>
+            <a href="https://twitter.com/SureshNagar21" target="_blank" rel="noreferrer" aria-label="Twitter">Twitter</a>
+            <a href="https://github.com/nagarsuresh" target="_blank" rel="noreferrer" aria-label="GitHub">GitHub</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="photo-frame">
+            <img src="./assets/images/my-image.jpg" alt="Suresh Nagar" />
+          </div>
+          <div class="hero-card-body">
+            <h2>About</h2>
+            <p id="about" class="soft">
+              UI Architect with 25 years of experience in design, development, and maintenance of enterprise web applications using
+              TypeScript, JavaScript, HTML, CSS, Angular, RxJS, Redux, NgRx, Java, REST, ExtJS, ES5/6, Spring, JPA, and MySQL.
+            </p>
+            <p class="soft">
+              14+ years of full-stack experience in architecting and developing scalable and testable solutions under aggressive timelines.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="resume" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Resume</h2>
+          <p>Education and professional experience.</p>
+        </div>
+        <div class="resume-grid">
+          <div>
+            <h3>Education</h3>
+            <div class="timeline">
+              <div class="timeline-card">
+                <div class="timeline-meta">1998 - 2001</div>
+                <h4>Master of Computer Applications</h4>
+                <p class="timeline-sub">University of Jammu, Jammu & Kashmir, India</p>
+                <p>Master of Computer Applications from University of Jammu. <strong>Gold Medalist of batch 1998-2001</strong>.</p>
+              </div>
+              <div class="timeline-card">
+                <div class="timeline-meta">1995 - 1998</div>
+                <h4>Bachelor of Commerce</h4>
+                <p class="timeline-sub">University of Jammu, Jammu & Kashmir, India</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3>Professional Experience</h3>
+            <div class="timeline">
+              <div class="timeline-card">
+                <div class="timeline-meta">2016 - PRESENT</div>
+                <h4>Staff Engineer II</h4>
+                <p class="timeline-sub">VMware · Palo Alto, California</p>
+                <p>UI Architect and Lead Engineer for <strong>NSX Intelligence</strong>.</p>
+                <div class="link-list">
+                  <a href="https://docs.vmware.com/en/VMware-NSX-Intelligence/1.1/user-guide/GUID-EF27B5EB-BD83-4AC4-81C9-45D0D7E07AB6.html" target="_blank" rel="noreferrer">VMware NSX Intelligence User Guide</a>
+                  <a href="https://www.youtube.com/watch?v=rNSL0IrIX_M" target="_blank" rel="noreferrer">NSX Intelligence Video</a>
+                </div>
+                <div class="subhead">Other projects worked on</div>
+                <p>UI Architect and Lead developer for <strong>NSX-T on VMC (VMware on Cloud)</strong>.</p>
+                <p>Lead developer for <strong>NSX Firewall UI</strong>.</p>
+                <a href="https://blogs.vmware.com/networkvirtualization/2018/05/nsx641-html5-ui.html/" target="_blank" rel="noreferrer">NSX 6.4.1 HTML5 UI</a>
+              </div>
+              <div class="timeline-card">
+                <div class="timeline-meta">2013 - 2016</div>
+                <h4>Principal Software Engineer</h4>
+                <p class="timeline-sub">Nexant Inc · Foster City, California</p>
+                <p>UI Architect and Lead Engineer for <strong>DSM Central iEnergy Solutions</strong>.</p>
+              </div>
+              <div class="timeline-card">
+                <div class="timeline-meta">2005 - 2012</div>
+                <h4>Senior Technical Manager</h4>
+                <p class="timeline-sub">Infosys Ltd · Chandigarh, India</p>
+                <p>Senior Technical Manager for <strong>Finacle Banking Solution (Edgeverve)</strong>.</p>
+              </div>
+              <div class="timeline-card">
+                <div class="timeline-meta">2003 - 2005</div>
+                <h4>Member Software Development Group</h4>
+                <p class="timeline-sub">Quark Software Inc · Chandigarh, India</p>
+                <p>Senior Software Engineer in <strong>Quark Publication Manager</strong>.</p>
+              </div>
+              <div class="timeline-card">
+                <div class="timeline-meta">2001 - 2003</div>
+                <h4>Senior Software Engineer</h4>
+                <p class="timeline-sub">Aithent Inc · Gurugram, India</p>
+                <p>Senior Software Engineer involved in development and implementation of <strong>SBS (State Based System)</strong>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<script src="runtime.js" defer></script><script src="polyfills.js" defer></script><script src="scripts.js" defer></script><script src="vendor.js" defer></script><script src="main.js" defer></script></body></html>
+    <section id="libraries" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>NPM Libraries</h2>
+          <p>Selected libraries published on npm.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-head">
+              <h3>ngx-mousetrap</h3>
+              <span class="tag">Angular</span>
+            </div>
+            <p>A convenient Angular wrapper over the mousetrap library to hide complexity and expose Angular Directives and Services.</p>
+            <a href="https://www.npmjs.com/package/ngx-mousetrap" target="_blank" rel="noreferrer" class="card-link">View on npm →</a>
+          </article>
+          <article class="card">
+            <div class="card-head">
+              <h3>stack-source-mapper</h3>
+              <span class="tag">Tooling</span>
+            </div>
+            <p>Production exception stack traces are often non-readable as source maps are not bundled with the app. This library can translate a production stack to a meaningful stack using offline or hidden source maps.</p>
+            <a href="https://www.npmjs.com/package/stack-source-mapper" target="_blank" rel="noreferrer" class="card-link">View on npm →</a>
+          </article>
+          <article class="card">
+            <div class="card-head">
+              <h3>rxify-webworker</h3>
+              <span class="tag">RxJS</span>
+            </div>
+            <p>An RxJS library to communicate with WebWorkers using Observables and hide all the complexities of dealing with worker postMessaging.</p>
+            <a href="https://www.npmjs.com/package/rxify-webworker" target="_blank" rel="noreferrer" class="card-link">View on npm →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="articles" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Articles</h2>
+          <p>Writing on Angular, RxJS, and UI development.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-head">
+              <h3>Multiple Undo using NgRx</h3>
+              <span class="tag">NgRx</span>
+            </div>
+            <p>An article about implementing multiple undo functionality in UI. Using metaReducers to maintain a stack of previous NgRx states to enable multiple state undos.</p>
+            <a href="https://medium.com/@naagarsuresh78/multiple-undo-using-ngrx-e71cb44be3b5" target="_blank" rel="noreferrer" class="card-link">Read on Medium →</a>
+          </article>
+          <article class="card">
+            <div class="card-head">
+              <h3>WebWorker Communication using RxJS</h3>
+              <span class="tag">RxJS</span>
+            </div>
+            <p>An article about communication with web workers using RxJS. A conventional way of communicating with web workers is using postMessage, which is difficult to manage. This article explains how to expose a worker as an RxJS Subject.</p>
+            <a href="https://medium.com/@naagarsuresh78/rxify-webworker-communication-in-angular8-b0cddbdcf2e" target="_blank" rel="noreferrer" class="card-link">Read on Medium →</a>
+          </article>
+          <article class="card">
+            <div class="card-head">
+              <h3>Handling keyboard shortcuts in Angular</h3>
+              <span class="tag">Angular</span>
+            </div>
+            <p>How to handle and implement keyboard shortcuts and hotkeys in Angular. This article explains how to angularize the popular library "mousetrap" and hide the complexity of event binding under Angular Directives.</p>
+            <a href="https://medium.com/@naagarsuresh78/handling-keyboard-shortcuts-in-angular-bd4587787375" target="_blank" rel="noreferrer" class="card-link">Read on Medium →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>GitHub Projects</h2>
+          <p>Selected projects across Angular, RxJS, React, and ExtJS.</p>
+        </div>
+
+        <div class="project-section">
+          <h3>Angular</h3>
+          <div class="project-grid">
+            <article class="project-card">
+              <img src="./assets/images/solar-system.png" alt="Angular + ThreeJS" />
+              <div>
+                <h4>Angular + ThreeJS</h4>
+                <p>Various ThreeJS examples with Angular and TypeScript.</p>
+                <p class="tech">Angular, ThreeJS, RxJS, TypeScript</p>
+                <div class="links">
+                  <a href="https://github.com/nagarsuresh/angular-threejs" target="_blank" rel="noreferrer">Repo</a>
+                  <a href="https://nagarsuresh.github.io/angular-threejs/#/solar-system" target="_blank" rel="noreferrer">Demo</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="./assets/images/tooltip-demo.png" alt="Clarity Tooltip Structural Directive" />
+              <div>
+                <h4>Structural Directive over VMware Clarity Tooltip</h4>
+                <p>An Angular structural directive wraps VMware Clarity Tooltip component to add tooltip on any element without boilerplate.</p>
+                <p class="tech">Angular, Clarity, TypeScript</p>
+                <div class="links">
+                  <a href="https://github.com/nagarsuresh/clarity-tooltip-structural-directive" target="_blank" rel="noreferrer">Repo</a>
+                  <a href="https://nagarsuresh.github.io/clarity-tooltip-structural-directive/" target="_blank" rel="noreferrer">Demo</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="https://miro.medium.com/max/700/1*TuxGvHQmigjE8kmwcodFFg.jpeg" alt="NgRx Multiple Undos" />
+              <div>
+                <h4>NgRx Multiple Undos</h4>
+                <p>Implementing multiple undos using NgRx meta reducers.</p>
+                <p class="tech">Angular, NgRx, Clarity, TypeScript</p>
+                <div class="links">
+                  <a href="https://github.com/nagarsuresh/ngrx-multiple-undo" target="_blank" rel="noreferrer">Repo</a>
+                  <a href="https://nagarsuresh.github.io/ngrx-multiple-undo/ngrx-multiple-undo/" target="_blank" rel="noreferrer">Demo</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="https://miro.medium.com/max/700/1*GJdxPHqphXkuLCZEB47q1g.jpeg" alt="ngx-mousetrap" />
+              <div>
+                <h4>ngx-mousetrap</h4>
+                <p>An Angular wrapper over the famous mousetrap library to expose it as Angular Directives and Service.</p>
+                <p class="tech">Angular, mousetrap, RxJS</p>
+                <div class="links">
+                  <a href="https://github.com/nagarsuresh/ngx-mousetrap-angular" target="_blank" rel="noreferrer">Repo</a>
+                  <a href="https://nagarsuresh.github.io/ngx-mousetrap-angular/" target="_blank" rel="noreferrer">Demo</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="./assets/images/scrolling-tabs.png" alt="Scrolling Tab Container" />
+              <div>
+                <h4>Scrolling Tab Container</h4>
+                <p>A scrolling tab container where overflow tabs scroll in the header rather than getting cut off or displayed in a dropdown menu.</p>
+                <p class="tech">Angular, TypeScript</p>
+                <div class="links">
+                  <a href="https://github.com/nagarsuresh/clarity-scrolling-tab" target="_blank" rel="noreferrer">Repo</a>
+                  <a href="https://nagarsuresh.github.io/clarity-scrolling-tab/" target="_blank" rel="noreferrer">Demo</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="./assets/images/grid-wrapper.png" alt="Configuration Driven Data Grid" />
+              <div>
+                <h4>Configuration Driven Data Grid</h4>
+                <p>A configuration-based data grid built on top of VMware Clarity Datagrid.</p>
+                <p class="tech">Angular, Clarity, TypeScript</p>
+                <div class="links">
+                  <a href="https://github.com/nagarsuresh/clarity-wrapper-grid" target="_blank" rel="noreferrer">Repo</a>
+                  <a href="https://nagarsuresh.github.io/clarity-wrapper-grid/" target="_blank" rel="noreferrer">Demo</a>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+        <div class="project-section">
+          <h3>RxJS</h3>
+          <div class="project-grid">
+            <article class="project-card">
+              <img src="https://miro.medium.com/max/700/1*ttkbTh1esTmiO7RBUDP8ww.gif" alt="RxJS Webworker Communication" />
+              <div>
+                <h4>RxJS Webworker Communication</h4>
+                <p>An RxJS library over webworker to hide complexities of post messaging and exposing webworker as Observable.</p>
+                <p class="tech">RxJS, TypeScript, WebWorker</p>
+                <div class="links">
+                  <a href="https://github.com/nagarsuresh/rxify-worker-angular" target="_blank" rel="noreferrer">Repo</a>
+                  <a href="https://nagarsuresh.github.io/rxify-worker-angular/rxify-worker-angular/" target="_blank" rel="noreferrer">Demo</a>
+                </div>
+              </div>
+            </article>
+            <article class="project-card">
+              <img src="./assets/images/inter-frame.png" alt="Interframe communication using RxJS" />
+              <div>
+                <h4>Interframe communication using RxJS</h4>
+                <p>Communication channel in multiple frames using RxJS. A wrapper over native window post messaging API.</p>
+                <p class="tech">RxJS, JavaScript</p>
+                <div class="links">
+                  <a href="https://github.com/nagarsuresh/interframe-communication-rxjs" target="_blank" rel="noreferrer">Repo</a>
+                  <a href="https://nagarsuresh.github.io/interframe-communication-rxjs/" target="_blank" rel="noreferrer">Demo</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="project-section">
+          <h3>React</h3>
+          <div class="project-grid">
+            <article class="project-card">
+              <img src="./assets/images/guessword-game.png" alt="Guessword Game" />
+              <div>
+                <h4>Guessword Game</h4>
+                <p>A game to guess a system chosen word in 15 attempts.</p>
+                <p class="tech">React, JavaScript</p>
+                <div class="links">
+                  <a href="https://github.com/nagarsuresh/guessword" target="_blank" rel="noreferrer">Repo</a>
+                  <a href="https://nagarsuresh.github.io/guessword/" target="_blank" rel="noreferrer">Demo</a>
+                </div>
+              </div>
+            </article>
+            <article class="project-card">
+              <img src="./assets/images/playnine-game.png" alt="Playnine Game" />
+              <div>
+                <h4>Playnine Game</h4>
+                <p>A game to match the system chosen number with a given set of numbers.</p>
+                <p class="tech">React, JavaScript</p>
+                <div class="links">
+                  <a href="https://github.com/nagarsuresh/playnine" target="_blank" rel="noreferrer">Repo</a>
+                  <a href="https://nagarsuresh.github.io/playnine/" target="_blank" rel="noreferrer">Demo</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="project-section">
+          <h3>ExtJS</h3>
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-image empty"></div>
+              <div>
+                <h4>Loading Angular Module inside ExtJS Application</h4>
+                <p>Loading multiple Angular modules in ExtJS Application.</p>
+                <p class="tech">ExtJS, JavaScript</p>
+                <div class="links">
+                  <a href="https://github.com/nagarsuresh/ng2-in-extjs" target="_blank" rel="noreferrer">Repo</a>
+                  <a href="https://nagarsuresh.github.io/ng2-in-extjs/" target="_blank" rel="noreferrer">Demo</a>
+                </div>
+              </div>
+            </article>
+            <article class="project-card">
+              <img src="./assets/images/typeahead-extjs.png" alt="ExtJS Typeahead plugin for TextArea" />
+              <div>
+                <h4>ExtJS Typeahead plugin for TextArea</h4>
+                <p>A typeahead plugin in ExtJS for a text area where suggestions can be provided at any location.</p>
+                <p class="tech">ExtJS, JavaScript</p>
+                <div class="links">
+                  <a href="https://github.com/nagarsuresh/extjs-typeahead" target="_blank" rel="noreferrer">Repo</a>
+                  <a href="https://nagarsuresh.github.io/extjs-typeahead/" target="_blank" rel="noreferrer">Demo</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Suresh Nagar</strong>
+        <p>UI Architect · Full-stack experience · Enterprise web applications.</p>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:nagar.suresh@gmail.com">nagar.suresh@gmail.com</a>
+        <a href="tel:+1-408-498-2168">+1 (408) 498 2168</a>
+        <a href="https://github.com/nagarsuresh" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
+
