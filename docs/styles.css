@@ -1,44 +1,45 @@
 :root {
-  color-scheme: light;
+  color-scheme: dark;
   
-  /* Theme Colors - Orange Theme */
-  --color-primary: #ea580c;
-  --color-primary-dark: #c2410c;
-  --color-primary-light: #f97316;
-  --color-primary-hover: #fb923c;
+  /* Theme Colors - Orange Theme (Dark Mode) */
+  --color-primary: #fb923c;
+  --color-primary-dark: #f97316;
+  --color-primary-light: #fdba74;
+  --color-primary-hover: #ffa94d;
   
-  /* Background Colors */
-  --color-bg-base: #fef7ed;
-  --color-bg-base-alt: #ffedd5;
-  --color-bg-gradient-start: #fef7ed;
-  --color-bg-gradient-mid: #fff4e6;
-  --color-bg-gradient-end: #ffe4cc;
-  --color-bg-header: rgba(254, 247, 237, 0.95);
+  /* Background Colors - Dark Theme */
+  --color-bg-base: #0f172a;
+  --color-bg-base-alt: #1e293b;
+  --color-bg-gradient-start: #0f172a;
+  --color-bg-gradient-mid: #1e293b;
+  --color-bg-gradient-end: #334155;
+  --color-bg-header: rgba(15, 23, 42, 0.95);
+  --color-bg-footer: #0a0f1a;
   
-  /* Text Colors */
-  --color-text-primary: #1c1917;
-  --color-text-secondary: #78716c;
-  --color-text-muted: #57534e;
+  /* Text Colors - Light on Dark */
+  --color-text-primary: #f1f5f9;
+  --color-text-secondary: #cbd5e1;
+  --color-text-muted: #94a3b8;
   
   /* UI Colors */
-  --color-card: #ffffff;
-  --color-border: rgba(0, 0, 0, 0.08);
+  --color-card: #1e293b;
+  --color-border: rgba(255, 255, 255, 0.1);
   --color-white: #ffffff;
   --color-white-70: rgba(255, 255, 255, 0.7);
   --color-white-80: rgba(255, 255, 255, 0.8);
-  --color-black-04: rgba(0, 0, 0, 0.04);
-  --color-black-05: rgba(0, 0, 0, 0.05);
+  --color-black-04: rgba(0, 0, 0, 0.2);
+  --color-black-05: rgba(0, 0, 0, 0.3);
   
   /* Texture/Overlay Colors */
-  --color-overlay-primary: rgba(234, 88, 12, 0.1);
-  --color-overlay-primary-light: rgba(251, 146, 60, 0.08);
-  --color-overlay-dark: rgba(0, 0, 0, 0.04);
+  --color-overlay-primary: rgba(251, 146, 60, 0.15);
+  --color-overlay-primary-light: rgba(255, 169, 77, 0.1);
+  --color-overlay-dark: rgba(0, 0, 0, 0.2);
   
-  /* Shadow Colors */
-  --shadow-color: rgba(0, 0, 0, 0.1);
-  --shadow-color-light: rgba(0, 0, 0, 0.06);
-  --shadow-color-lg: rgba(0, 0, 0, 0.1);
-  --shadow-color-lg-light: rgba(0, 0, 0, 0.04);
+  /* Shadow Colors - Darker shadows for dark theme */
+  --shadow-color: rgba(0, 0, 0, 0.3);
+  --shadow-color-light: rgba(0, 0, 0, 0.2);
+  --shadow-color-lg: rgba(0, 0, 0, 0.4);
+  --shadow-color-lg-light: rgba(0, 0, 0, 0.3);
   
   /* Legacy Variable Names (for compatibility) */
   --bg: var(--color-bg-base);
@@ -692,7 +693,7 @@ a:hover {
 
 /* Footer */
 .site-footer {
-  background: var(--color-text-primary);
+  background: var(--color-bg-footer);
   color: var(--color-white);
   padding: 60px 0;
   margin-top: 100px;
